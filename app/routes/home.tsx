@@ -3,7 +3,7 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
 	return [
-		{ title: "UMKC Catholic" },
+		{ title: "UMKC Catholic Club" },
 		{ name: "description", content: "The official website of the Catholic community at the University of Missouri-Kansas City!" },
 	];
 }
