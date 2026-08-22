@@ -19,11 +19,11 @@ export function Welcome({ message }: { message: string }) {
 						draggable={false}
 						onContextMenu={(e) => e.preventDefault()}
 					/>
-					<nav className="flex flex-col rounded-3xl border border-gray-200 p-5  gap-y-6">
-						<h1 className="leading-6 text-gray-700 dark:text-gray-200">
-							Hello! This site is currently under construction! (as recently as August 21, 2026)
-						</h1>
-						<p className="leading-6 text-gray-700 dark:text-gray-200 inline-block">In the meantime... go to our <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://www.instagram.com/umkc_catholic/">Instagram</a> or find an event you want to attend on <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://roogroups.umkc.edu/feeds?type=club&type_id=36024&tab=about">our page on Roogroups</a>!</p>
+					<nav className="flex flex-col rounded-3xl border border-gray-200 p-5 gap-y-6 items-center text-center">
+						<p className="text-gray-700 dark:text-gray-200">Hello! This site is currently under construction! (as recently as August 21, 2026)</p>
+						<p className="text-gray-700 dark:text-gray-200">In the meantime... go to our <a className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://www.instagram.com/umkc_catholic/">Instagram</a> or find an event you want to attend on <a className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://roogroups.umkc.edu/feeds?type=club&type_id=36024&tab=about">our page on Roogroups</a>!</p>
+						<p className="text-gray-700 dark:text-gray-200">God bless!</p>
+						<p className="text-2xl text-gray-700 dark:text-gray-100">☧</p>
 						{/*<ul>
 							{resources.map(({ href, text, icon }) => (
 								<li key={href}>
