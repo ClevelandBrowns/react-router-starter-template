@@ -1,37 +1,30 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
+import umkc_catholic_logo from "./umkc_catholic_logo.png";
+ import { Swiper } from "swiper/react";
 
 export function Welcome({ message }: { message: string }) {
 	return (
-		<main className="flex items-center justify-center pt-16 pb-4">
-			<div className="flex-1 flex flex-col items-center gap-16 min-h-0">
+		<main className="">
+			
+			<div className="flex flex-col items-center gap-16 min-h-0">
 				<header className="flex flex-col items-center gap-9 sticky">
-					<div className="w-[500px] max-w-[100vw] p-4">
-						<img
-							src={logoLight}
-							alt="React Router"
-							className="block w-full dark:hidden select-none"
-							draggable={false}
-							onContextMenu={(e) => e.preventDefault()}
-						/>
-						<img
-							src={logoDark}
-							alt="React Router"
-							className="hidden w-full dark:block select-none"
-							draggable={false}
-							onContextMenu={(e) => e.preventDefault()}
-						/>
+					<div className="w-[500px] max-w-[100vw] p-4 text-center">
 					</div>
 				</header>
-					<div className="w-full min-h-[60dvh] max-h-[700px] bg-gradient-to-b from-gray-350 to-white">
-  						hello{/*<div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">hello</div>*/}
-					</div>
-				<div className="max-w-[300px] w-full space-y-6 px-4">
-					<nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4">
-						<p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-							What&apos;s next?
-						</p>
-						<ul>
+				
+				<div className="max-w-[300px] flex flex-col items-center gap-y-6">
+					<img
+						src={umkc_catholic_logo}
+						alt="React Router"
+						className="w-full select-none max-w-[100px]"
+						draggable={false}
+						onContextMenu={(e) => e.preventDefault()}
+					/>
+					<nav className="flex flex-col rounded-3xl border border-gray-200 p-5  gap-y-6">
+						<h1 className="leading-6 text-gray-700 dark:text-gray-200">
+							Hello! This site is currently under construction! (as recently as August 21, 2026)
+						</h1>
+						<p className="leading-6 text-gray-700 dark:text-gray-200 inline-block">In the meantime... go to our <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://www.instagram.com/umkc_catholic/">Instagram</a> or find an event you want to attend on our page on <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://roogroups.umkc.edu/feeds?type=club&type_id=36024&tab=about">Roogroups</a>!</p>
+						{/*<ul>
 							{resources.map(({ href, text, icon }) => (
 								<li key={href}>
 									<a
@@ -46,13 +39,31 @@ export function Welcome({ message }: { message: string }) {
 								</li>
 							))}
 							<li className="self-stretch p-3 leading-normal">{message}</li>
-						</ul>
+						</ul>*/}
 					</nav>
 				</div>
+
 			</div>
+			
 		</main>
 	);
 }
+
+/*const swiper = Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesOffsetAfter: 40,
+  speed: 200,
+  noSwiping: false,
+  rewind: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  autoplay: {
+    disableOnInteraction: true,
+    pauseOnMouseEnter: true
+  }
+});*/
 
 const resources = [
 	{
