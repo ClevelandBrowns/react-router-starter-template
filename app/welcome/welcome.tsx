@@ -23,7 +23,7 @@ export function Welcome({ message }: { message: string }) {
 						<h1 className="leading-6 text-gray-700 dark:text-gray-200">
 							Hello! This site is currently under construction! (as recently as August 21, 2026)
 						</h1>
-						<p className="leading-6 text-gray-700 dark:text-gray-200 inline-block">In the meantime... go to our <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://www.instagram.com/umkc_catholic/">Instagram</a> or find an event you want to attend on our page on <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://roogroups.umkc.edu/feeds?type=club&type_id=36024&tab=about">Roogroups</a>!</p>
+						<p className="leading-6 text-gray-700 dark:text-gray-200 inline-block">In the meantime... go to our <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://www.instagram.com/umkc_catholic/">Instagram</a> or find an event you want to attend on <a className="inline-block text-blue-600 hover:text-blue-800 hover:underline cursor-pointer" href="https://roogroups.umkc.edu/feeds?type=club&type_id=36024&tab=about">our page on Roogroups</a>!</p>
 						{/*<ul>
 							{resources.map(({ href, text, icon }) => (
 								<li key={href}>
